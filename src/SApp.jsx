@@ -1,6 +1,6 @@
 import { useState, useEffect, createContext } from "react";
 import Swal from "sweetalert2";
-import SNavbar from "./components/sNavbar";
+import SNavbar from "./components/SNavbar";
 import SHero from "./components/SHero";
 import SBanner from "./components/SBanner";
 import SWhyChoose from "./components/SWhyChoose";
