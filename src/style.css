@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/KumbhSans-Regular.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Inter;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .dark {
+    @apply overflow-x-hidden bg-gray-800 text-white;
+  }
+  .light {
+    @apply overflow-x-hidden;
+  }
+}
