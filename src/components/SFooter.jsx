@@ -120,6 +120,9 @@ const Footer = () => {
               <a href="">Términos y condiciones</a>
             </div>
           </div>
+          <p className="pb-4 text-center font-semibold text-white">
+            Hecho con 💓 por GLtech
+          </p>
         </div>
       </div>
     </div>
